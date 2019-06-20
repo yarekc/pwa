@@ -2,6 +2,7 @@
 Maniere rapide de creer une application PWA
 Utilisee dans [rezocoquin](www.rezocoquin.com)
 
+
 ## steps 
 1. edit **manifest.json**
 ```
