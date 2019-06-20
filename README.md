@@ -7,7 +7,7 @@ Utilisee dans [rezocoquin](www.rezocoquin.com)
 1. edit **manifest.json**
 ```
 {
-  "name": "RezoCoquin Site �changiste",
+  "name": "RezoCoquin Site echangiste",
   "short_name": "RezoCoquin",
   "start_url": ".",
   "display": "standalone",
