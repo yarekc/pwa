@@ -68,14 +68,14 @@ self.addEventListener('install', async event => {
     await cache.addAll(staticAssets);
 });
 self.addEventListener('fetch', event => {
-    const req = event.request;
-event.respondWith(cacheFirst(req));
+    fetch(event.request)
 });
 async function cacheFirst(req) {
     const cache = await caches.open(cacheName);
     const cachedResponse = await cache.match(req);
     return cachedResponse || fetch(req);
 }
+
 ```
 6. create and upload the **offline.html** page to the root
 ```
